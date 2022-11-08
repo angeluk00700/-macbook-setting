@@ -1,7 +1,6 @@
 {
   "name": "nodejs-test",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js"
@@ -11,5 +10,9 @@
   "license": "ISC",
   "devDependencies": {
     "http": "0.0.1-security"
-  }
+  },
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "description": ""
 }
